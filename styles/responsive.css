@@ -44,7 +44,22 @@
   .burger {
     display: block;
   }
+  .contact-us {
+    padding: 3rem 1.5rem;
+  }
+
+  .contact-us h2 {
+    font-size: 1.8rem;
+  }
+  .contact-us p {
+    font-size: 1rem;
+  }
+
+  .contact-form {
+    gap: 0.8rem;
+  }
 }
+
 @media (max-width: 480px) {
   .hero-text {
     font-size: 1.5rem;
@@ -59,4 +74,13 @@
   .card-text {
     font-size: 0.9rem;
   }
+}
+.contact-us {
+  padding: 2rem 1rem;
+}
+.contact-us h2 {
+  font-size: 1.5rem;
+}
+.contact-us p {
+  font-size: 0.95rem;
 }
